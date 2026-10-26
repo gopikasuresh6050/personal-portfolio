@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#16070d">
+  <title>Gopika — ECE Student & Visual Storyteller</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:ital,wght@1,600;1,700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <main>
+    <section class="hero" id="home">
+      <div class="ambient ambient-one"></div>
+      <div class="ambient ambient-two"></div>
+      <div class="grain"></div>
+      <div class="particles" aria-hidden="true"></div>
+
+      <div class="character-scene" id="characterScene" aria-hidden="true">
+        <img class="character" id="character" src="red.png" alt="" aria-hidden="true">
+      </div>
+
+      <nav class="nav glass" aria-label="Main navigation">
+        <a href="#work">WORK</a>
+        <a href="#about">ABOUT</a>
+        <a href="#contact">CONTACT</a>
+      </nav>
+
+      <div class="hero-copy">
+        <p class="eyebrow"><span class="eyebrow-line"></span> ECE STUDENT · PHOTOGRAPHER · VIDEO EDITOR</p>
+        <h1>Hi, I'm <span>Gopika.</span></h1>
+        <p class="intro">
+          An Electronics & Communication Engineering student by study,
+          a photographer and video editor by passion. I explore the world
+          through circuits, colours, frames and stories.
+        </p>
+        <div class="hero-actions">
+          <a class="button button-light" href="#work">EXPLORE MY WORK <span>↗</span></a>
+          <a class="button button-outline" href="#contact">LET'S CONNECT</a>
+        </div>
+        <div class="hero-note"><span class="status-dot"></span> ENGINEERING MIND · CREATIVE EYE</div>
+      </div>
+
+      <a class="scroll-cue" href="#work"><span></span> SCROLL TO EXPLORE</a>
+      <div class="side-index">01 <span>/</span> 04</div>
+    </section>
+
+    <section class="about section" id="about" aria-labelledby="about-heading">
+      <header class="about-heading about-reveal">
+        <p class="eyebrow"><span class="eyebrow-line"></span> THE PERSON BEHIND THE FRAME</p>
+        <h2 id="about-heading">ABOUT <em>ME</em></h2>
+      </header>
+
+      <div class="about-composition">
+        <div class="about-column about-left">
+          <article class="about-note about-introduction about-reveal">
+            <span class="about-label">01 / A LITTLE INTRODUCTION</span>
+            <p>I'm Gopika — an Electronics and Communication Engineering student with a creative eye and a deep love for visual storytelling.</p>
+          </article>
+          <article class="about-note about-creative-story about-reveal">
+            <span class="about-label">02 / THROUGH THE LENS</span>
+            <p>I find beauty in the little things most people pass by — the way light falls, the emotions hidden in a moment, and the stories a single frame can tell.</p>
+            <p>Photography is my way of holding on to those moments, while video editing and colour grading allow me to turn them into experiences.</p>
+          </article>
+        </div>
+
+        <figure class="about-video-stage about-reveal">
+          <span class="about-video-label">A PORTRAIT IN MOTION</span>
+          <div class="about-video-frame">
+            <video autoplay loop muted playsinline preload="metadata" aria-label="Gopika's animated anime portrait">
+              <source src="capcut.mp4" type="video/mp4">
+              Your browser does not support HTML5 video.
+            </video>
+          </div>
+          <span class="about-video-index" aria-hidden="true">ECE · VISUAL STORYTELLING</span>
+        </figure>
+
+        <div class="about-column about-right">
+          <article class="about-note about-engineering about-reveal">
+            <span class="about-label">03 / BEYOND THE FRAME</span>
+            <p>Alongside my creative journey, I'm exploring electronics, digital signal processing, and embedded systems. I love learning how things work, experimenting with ideas, and bringing imagination and technology together.</p>
+          </article>
+          <article class="about-note about-philosophy about-reveal">
+            <span class="about-label">04 / STILL BECOMING</span>
+            <p>I'm still learning, still experimenting, and still finding my own style. I believe great work comes from curiosity, patience, and the courage to keep creating.</p>
+          </article>
+        </div>
+      </div>
+
+      <div class="about-closing about-reveal">
+        <p class="about-signature">“For me, it's not just about capturing what I see. It's about making people feel what I felt.”</p>
+        <div class="about-skills" aria-label="Creative and engineering skills">
+          <span>PHOTOGRAPHY</span>
+          <span>VIDEO EDITING &amp; COLOUR GRADING</span>
+          <span>ELECTRONICS &amp; ENGINEERING</span>
+        </div>
+      </div>
+    </section>
+
+    <section class="work section gallery-section" id="work" aria-labelledby="gallery-heading">
+      <header class="gallery-heading">
+        <p class="eyebrow"><span class="eyebrow-line"></span> BEHIND THE LENS</p>
+        <h2 id="gallery-heading">Frames I've <em>Captured.</em></h2>
+        <p class="gallery-subtitle">Little moments, seen through my eyes.</p>
+      </header>
+
+      <div class="gallery-grid" aria-label="Photography gallery">
+        <div class="gallery-collection">
+          <button class="gallery-image gallery-featured" type="button" aria-label="View photograph">
+            <img src="keeri1.jpeg" alt="A sunlit outdoor portrait in a white dress" loading="lazy" decoding="async">
+          </button>
+          <div class="gallery-supporting">
+            <button class="gallery-image" type="button" aria-label="View photograph">
+              <img src="keeri2.jpeg" alt="A close-up portrait in warm natural light" loading="lazy" decoding="async">
+            </button>
+            <button class="gallery-image" type="button" aria-label="View photograph">
+              <img src="keeri3.jpeg" alt="A candid portrait outdoors" loading="lazy" decoding="async">
+            </button>
+          </div>
+        </div>
+        <div class="gallery-collection">
+          <button class="gallery-image gallery-featured" type="button" aria-label="View photograph">
+            <img src="dance1.jpeg" alt="Two dancers in traditional dress" loading="lazy" decoding="async">
+          </button>
+          <div class="gallery-supporting">
+            <button class="gallery-image" type="button" aria-label="View photograph">
+              <img src="dance2.JPG" alt="Dancers performing in traditional costumes" loading="lazy" decoding="async">
+            </button>
+            <button class="gallery-image" type="button" aria-label="View photograph">
+              <img src="dance3.jpg" alt="A dancer in traditional costume" loading="lazy" decoding="async">
+            </button>
+          </div>
+        </div>
+      </div>
+
+      <dialog class="gallery-lightbox" aria-label="Photo viewer">
+        <button class="gallery-lightbox-close" type="button" aria-label="Close photo">×</button>
+        <img class="gallery-lightbox-image" alt="">
+      </dialog>
+    </section>
+
+    <section class="video-showcase section" id="editing" aria-labelledby="video-showcase-heading">
+      <header class="video-showcase-heading">
+        <p class="eyebrow"><span class="eyebrow-line"></span> SELECTED WORKS</p>
+        <h2 id="video-showcase-heading">Stories in <em>Motion.</em></h2>
+        <p class="video-showcase-subtitle">Every frame, every cut, every colour — a story told through my eyes.</p>
+        <p class="video-showcase-note">A collection of moments I've shaped through editing and colour grading.</p>
+      </header>
+
+      <div class="video-feature">
+        <div class="video-project">
+          <div class="video-project-frame">
+            <video class="portfolio-video" preload="metadata" playsinline muted aria-label="Video player">
+              <source src="kochi.mp4" type="video/mp4">
+              Your browser does not support HTML video.
+            </video>
+            <button class="video-play" type="button" aria-label="Play video">
+              <span aria-hidden="true">▶</span>
+            </button>
+          </div>
+          <p class="video-play-status" aria-live="polite"></p>
+        </div>
+      </div>
+
+      <div class="video-project-grid" aria-label="More selected video edits">
+        <article class="video-project">
+          <div class="video-project-frame">
+            <video class="portfolio-video" preload="metadata" playsinline muted aria-label="Video player">
+              <source src="santhi.mp4" type="video/mp4">
+              Your browser does not support HTML video.
+            </video>
+            <button class="video-play" type="button" aria-label="Play video"><span aria-hidden="true">▶</span></button>
+          </div>
+          <p class="video-play-status" aria-live="polite"></p>
+        </article>
+        <article class="video-project">
+          <div class="video-project-frame">
+            <video class="portfolio-video" preload="metadata" playsinline muted aria-label="Video player">
+              <source src="creating.mp4" type="video/mp4">
+              Your browser does not support HTML video.
+            </video>
+            <button class="video-play" type="button" aria-label="Play video"><span aria-hidden="true">▶</span></button>
+          </div>
+          <p class="video-play-status" aria-live="polite"></p>
+        </article>
+        <article class="video-project">
+          <div class="video-project-frame">
+            <video class="portfolio-video" preload="metadata" playsinline muted aria-label="Video player">
+              <source src="sathyam.mp4" type="video/mp4">
+              Your browser does not support HTML video.
+            </video>
+            <button class="video-play" type="button" aria-label="Play video"><span aria-hidden="true">▶</span></button>
+          </div>
+          <p class="video-play-status" aria-live="polite"></p>
+        </article>
+        <article class="video-project">
+          <div class="video-project-frame">
+            <video class="portfolio-video" preload="metadata" playsinline muted aria-label="Video player">
+              <source src="friends.mp4" type="video/mp4">
+              Your browser does not support HTML video.
+            </video>
+            <button class="video-play" type="button" aria-label="Play video"><span aria-hidden="true">▶</span></button>
+          </div>
+          <p class="video-play-status" aria-live="polite"></p>
+        </article>
+        <article class="video-project">
+          <div class="video-project-frame">
+            <video class="portfolio-video" preload="metadata" playsinline muted aria-label="Video player">
+              <source src="things.mp4" type="video/mp4">
+              Your browser does not support HTML video.
+            </video>
+            <button class="video-play" type="button" aria-label="Play video"><span aria-hidden="true">▶</span></button>
+          </div>
+          <p class="video-play-status" aria-live="polite"></p>
+        </article>
+        <article class="video-project">
+          <div class="video-project-frame">
+            <video class="portfolio-video" preload="metadata" playsinline muted aria-label="Video player">
+              <source src="evening.mp4" type="video/mp4">
+              Your browser does not support HTML video.
+            </video>
+            <button class="video-play" type="button" aria-label="Play video"><span aria-hidden="true">▶</span></button>
+          </div>
+          <p class="video-play-status" aria-live="polite"></p>
+        </article>
+      </div>
+    </section>
+
+    <section class="engineering section" id="engineering">
+      <div class="section-top">
+        <p class="eyebrow">THE ENGINEERING SIDE</p>
+        <p class="section-index">01 / TECH</p>
+      </div>
+      <h2>Curious by nature.<br><em>Built to understand.</em></h2>
+      <p class="section-description">I'm an Electronics & Communication Engineering student interested in the way technology turns ideas into something real. This space is for my academic projects, experiments and things I learn along the way.</p>
+      <div class="skill-list">
+        <span>ELECTRONICS</span><span>COMMUNICATION SYSTEMS</span><span>DSP & SIGNALS</span><span>EMBEDDED SYSTEMS</span><span>PROBLEM SOLVING</span>
+      </div>
+      <div class="project-note">
+        <p class="eyebrow">PROJECTS & EXPERIMENTS</p>
+        <h3>Work in progress.</h3>
+        <p>I'll be adding selected college projects, technical experiments and project documentation here.</p>
+      </div>
+    </section>
+
+    <footer class="contact section" id="contact">
+      <div class="contact-content">
+        <div class="contact-copy">
+          <p class="eyebrow">HAVE A STORY IN MIND?</p>
+          <h2>Let's make something<br><em>that stays with you.</em></h2>
+          <div class="contact-links">
+            <a class="button button-light" href="mailto:gopikasuresh6-50@gmail.com">EMAIL ME ↗</a>
+            <a class="button button-outline" href="https://www.instagram.com/fx.gopika/" target="_blank" rel="noopener noreferrer">INSTAGRAM ↗</a>
+          </div>
+        </div>
+        <img class="contact-portrait" src="black me.jpg" alt="Gopika, in a black-and-white portrait" loading="lazy" decoding="async">
+      </div>
+      <div class="footer-bottom">
+        <span>© <span id="year"></span> GOPIKA</span>
+        <span>MADE WITH FEELING.</span>
+        <a href="#home">BACK TO TOP ↑</a>
+      </div>
+    </footer>
+  </main>
+</body>
+</html>
